@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Laundry Wallah</h1>
+        <p>Your one-stop solution for all your laundry needs!</p>
+        <p>We offer convenient and affordable laundry services with quick turnaround times. Whether you need wash and fold, dry cleaning, or ironing, we've got you covered. Our team of professionals ensures that your clothes are treated with the utmost care and attention.</p>
+    </header>
+    <main>
+        <section id="image">
+            <img src="resources/images/laundry.png" alt="laundry image" width="300">
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Washing and Drying</li>
+                <li>Ironing and Folding</li>
+                <li>Dry Cleaning</li>
+                <li>Stain Removal</li>
+                <li>Express Services</li>
+                <li>Special Garment Care</li>
+                <li>and more...</li>
+            </ul>
+        </section>
+        <section id="Prices">
+            <h2>Price List</h2>
+            <table border="1">
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Washing and Drying</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Ironing and Folding</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Stain Removal</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td>Express Services</td>
+                    <td>$25.00</td>
+                </tr>
+                <tr>
+                    <td>Special Garment Care</td>
+                    <td>$30.00</td>
+                </tr>   
+            </table>
+        </section>
+        <section id="book-now">
+            <h2>Book Now</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Please enter your name...">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="enter your mail...">
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="enter your phone number...">
+
+                <label for="service">Select Service:</label>
+                <select name="service" id="service">
+                    <option value="None">Select an option</option>
+                    <option value="washing">Washing and Drying</option>
+                    <option value="ironing">Ironing and Folding</option>
+                    <option value="drycleaning">Dry Cleaning</option>
+                    <option value="stainremoval">Stain Removal</option>
+                    <option value="express">Express Services</option>
+                    <option value="specialcare">Special Garment Care</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>contact us at: <a href="mailto:info@laundrywallah.com">info@laundrywallah.com</a></p>
+    </footer>
+</body>
+</html>
